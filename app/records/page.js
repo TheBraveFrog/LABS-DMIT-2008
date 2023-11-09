@@ -1,6 +1,6 @@
 
 import { PageHeader } from "../../components/header/PageHeader"
-import { getRecords } from "@/lib/firebase/getEmployees";
+import { getRecords } from "@/lib/firebase/getRecords";
 
  
 
