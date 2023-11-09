@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 
 function Card ({id, artist, description, label, producer, rating, release_date, sales, title, tracks }){
