@@ -1,9 +1,6 @@
 
 import { PageHeader } from "../../components/header/PageHeader"
 import { getRecords } from "@/lib/firebase/getEmployees";
- 
-
-// Link element to create a dynamic route.
 
  
 
@@ -21,7 +18,7 @@ import { getRecords } from "@/lib/firebase/getEmployees";
     <PageHeader title="All Records Display"/>
     <main className=" min-h-screen py-24">
        {
-          values.map(item=> <Card  key={item.uid} {...item}/>)
+          values.map(item=> <Card  key={item.id} {...item}/>)
        }
      </main>
     </>
