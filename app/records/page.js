@@ -17,7 +17,7 @@ import { getRecords } from "@/lib/firebase/getRecords"
     <>
     <NavBar/>
     <PageHeader title="All Records Display" tagline="View all our records"/>
-    <main className="py-12 flex">
+    <main className="py-6 flex flex-wrap justify-center">
       {
         values.map(item=> <Card key={item.id} {...item}/>)
       }
