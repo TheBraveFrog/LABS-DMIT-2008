@@ -3,7 +3,7 @@ import { PageHeader } from "../../components/header/PageHeader"
 import {NavBar} from "../../components/navigation/NavBar"
  
 
- async function RecordsPage () {
+ async function RecordPage () {
  
 
   
@@ -11,7 +11,7 @@ import {NavBar} from "../../components/navigation/NavBar"
    return(
     <>
     <NavBar/>
-    <PageHeader title="All Records Display"/>
+    <PageHeader title="Singular Record Display"/>
     <main className=" min-h-screen py-24">
           
      </main>
@@ -22,4 +22,4 @@ import {NavBar} from "../../components/navigation/NavBar"
 }
 
 
-export default RecordsPage
+export default RecordPage
