@@ -1,5 +1,5 @@
 import admin from "firebase-admin"
-import {initializeApp, getApps} from "firebase-admin/app"
+import  {initializeApp, getApps} from "firebase-admin/app"
 import serviceKey from "@/config/serviceKey" 
  
  
@@ -18,4 +18,3 @@ import serviceKey from "@/config/serviceKey"
 const db = admin.database()
  
 export {db}
- 
