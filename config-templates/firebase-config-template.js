@@ -8,7 +8,6 @@ import serviceKey from "@/config/serviceKey"
   initializeApp({
     credential: admin.credential.cert(serviceKey),
     databaseURL: "https://lab2-71ffc-default-rtdb.firebaseio.com/",
-    project_id:"lab2-71ffc",
     databaseAuthVariableOverride: {
       uid: "bravefrog"
     }
