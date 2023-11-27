@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 import { PageHeader } from "../../components/header/PageHeader"
 import {NavBar} from "../../components/navigation/NavBar"
